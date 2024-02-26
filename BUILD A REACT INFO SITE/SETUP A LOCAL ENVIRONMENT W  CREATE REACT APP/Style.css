@@ -1,0 +1,73 @@
+ 
+*{
+    box-sizing: border-box ;
+}
+
+
+body{
+    margin:0;
+    font-family: Inter, sans-serif;
+    /* */
+    background-color: lightslategray;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    background-color: #21222A;
+
+    /* to pad */
+    padding: 30px  25px;
+    height: 90px;
+}
+
+/* nav image styling */
+.nav--icon{         /* nav > img*/
+    height: 50px;
+    margin-right: 17px;
+}
+
+.nav--logo_text, .nav--title{
+    margin: 0;
+}
+
+.nav--logo_text{
+    margin-right: auto;
+    color: #61DAFB;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.nav--title{      /* nav */
+    color: #DEEBF8;
+    font-weight: 600;
+
+}
+
+
+/* START STYLING THE MAIN ELEMENT NOW */
+main{
+      padding: 57px 27px;
+      /* */  color: white;
+}
+
+.main--title{
+    margin: 0;
+    font-size: 42px;
+  /*  letter-spacing: -0.05em;   */
+}
+
+.main--facts{
+    margin-top: 40px;
+}
+
+.main--facts > li{
+    line-height: 19px;
+    padding-block: 10px;
+}
+
+
+.main--facts > li::marker{
+    font-size: 1.4rem;
+    color: #61DAFB;
+}
